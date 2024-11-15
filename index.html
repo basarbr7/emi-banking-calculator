@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emi calculator </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="box">
+        <h2>EMI Calculator for Banking</h2>
+        <div class="boxContent">
+            <div class="left">
+                <table>
+                    <tr>
+                        <td>Outstanding Principle</td>
+                        <td><input type="text" class="principle" value="100000" placeholder="100000"> Tk</td>
+                    </tr>
+
+                    <tr>
+                        <td>Interest Rate (%)</td>
+                        <td><input class="interest_rate" type="text" value="10" placeholder="10"> %</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tenure (in Months)</td>
+                        <td><input class="tenure" type="text" value="24" placeholder="12"> Month</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="right">
+                <table>
+                    <tr>
+                        <td>Monthly Payment(EMI)</td>
+                        <td class="monthly_emi">Tk.</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly Payment(EMI)</td>
+                        <td class="Total_interest">Tk.</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly Payment(EMI)</td>
+                        <td class="total_payment">Tk.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="button">Calculate</button>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
